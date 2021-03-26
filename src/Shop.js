@@ -1,11 +1,11 @@
 import './App.css';
 
-function About() {
+function Shop() {
   return (
-    <div className="About">
-      <h1>About page</h1>
+    <div className="Shop">
+      <h1>Shop page</h1>
     </div>
   );
 }
 
-export default About;
+export default Shop;
