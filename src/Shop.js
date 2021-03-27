@@ -1,9 +1,14 @@
 import './App.css';
 
 function Shop() {
+
+  const fetchItems = async () => {
+    const data = await fetch('')
+  }
+
   return (
     <div className="Shop">
-      <h1>Shop page</h1>
+      <h2>Shop page</h2>
     </div>
   );
 }
