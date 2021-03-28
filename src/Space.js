@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import './App.css';
-import {Link} from 'react-router-dom';
 
 function Space() {
   useEffect(() => {
@@ -23,7 +22,7 @@ function Space() {
     <div>
        {items.map(item =>(
          <h1 key={item.id}>
-           <Link to={`/shop/${item.id}`} >{item.name}</Link>
+           <a href ={item.nasa_jpl_url} rel="noreferrer" target="_blank">{item.name}</a>
          </h1>
        ))}
     </div>

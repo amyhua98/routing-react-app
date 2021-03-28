@@ -2,7 +2,6 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Space from './Space';
-import ItemDetail from './ItemDetail';
 import logo from './logo.jpeg'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -28,7 +27,6 @@ const homeStyle ={
           <Route path="/" style={homeStyle} exact component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/space" exact component={Space}/>
-          <Route path="/shop/:id" component={ItemDetail}/>
         </Switch>
         
     </div>
